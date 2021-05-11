@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* mobile first */
+
 .container-fluid{
     width: 100%;
 }
@@ -21,7 +24,10 @@
 
 [class*="col-"] {
     flex: 0 0 auto;
-} 
+}
+
+/* versione mobile (default) */
+
   /* 12 System */
 .col-xs {
     flex-grow: 1;
@@ -142,3 +148,5 @@
 .bottom-xs {
     align-items: flex-end;
 }
+
+
